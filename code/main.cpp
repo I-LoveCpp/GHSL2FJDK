@@ -6,7 +6,7 @@
 using namespace std;
 
 #pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"" ) 
-#define edition "GHSL2FJSK 1.0"
+#define edition "GHSL2FJDK 1.0"
 #define KEY_DOWN(VK_NONAME) ((GetAsyncKeyState(VK_NONAME) & 0x8000) ? 1:0)
 
 void KD_H()
